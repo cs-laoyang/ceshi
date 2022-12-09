@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>彩神导航</title>
+    <link href="./images/style.css" type="text/css" rel="stylesheet">
+    <link href="./images/cont.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript">
+      //判断浏览器跳转手机站
+      try {
+        var urlhash = window.location.hash;
+        if (!urlhash.match("fromapp")) {
+          if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))) {
+            window.location = "wap/"; //填写移动版地址
+          }
+        }
+      } catch (err) {}
+    </script>
+  </head>
+
+  <body>
+    <div class="contw">
+      <div class="appicon"><img src="./images/code5.png"></div>
+      <div class="tit">请使用手机打开此页面</div>
+      <div class="ewmw">
+        <div class="ewmimgIOS"><img src="./images/code3.png"></div>
+        <div class="ewmimgAZ"><img src="./images/code4.png"></div>
+        <a class="butIOS" href="/ios/index.html">For iPhone</a>
+        <a class="butAZ" href="/android/index.html">For Android</a>
+      </div>
+    </div>
+    <div class="footer">Copyright @ 2020-2024</div>
+
+</body></html>
